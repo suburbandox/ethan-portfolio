@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+}
+.navbar{
+    padding: 0px;
+    background-color: #808080;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: palevioletred;
+}
+.navbar li{
+    float: left;
+}
+.container{
+    
+    padding: 0px;
+}
+.blue{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.big{
+    height: 900px;
+    background-color: blue;
+    background-image: url("image/3.jpg");
+}
+.big2{
+    height: 900px;
+    background-color: wheat;
+}
+section{
+    padding: 150px 0;
+}
+button{
+    margin: auto;
+    display: block;
+}
