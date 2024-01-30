@@ -28,6 +28,7 @@ h1{
 }
 .navbar li{
     float: left;
+    
 }
 .container{
     
@@ -40,12 +41,10 @@ h1{
     justify-content: center;
 }
 .big{
-    height: 900px;
-    background-color: blue;
-    background-image: url("image/3.jpg");
+    background-color: rgb(217, 234, 233);
 }
 .big2{
-    height: 900px;
+
     background-color: wheat;
 }
 section{
@@ -54,4 +53,10 @@ section{
 button{
     margin: auto;
     display: block;
+}
+row1{
+    width: 25%;
+}
+row2{
+    width: 75%;
 }
