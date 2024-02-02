@@ -1,6 +1,7 @@
 h1{
     text-align: center;
 }
+/* nav */
 .navbar{
     padding: 0px;
     background-color: #808080;
@@ -28,18 +29,20 @@ h1{
 }
 .navbar li{
     float: left;
-    
 }
+
 .container{
-    
     padding: 0px;
 }
 .blue{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
+    background-color: lightcyan;
+    margin-top: 100px;
 }
+
 .big{
     background-color: rgb(217, 234, 233);
 }
@@ -50,13 +53,23 @@ h1{
 section{
     padding: 150px 0;
 }
-button{
-    margin: auto;
-    display: block;
+.red{
+
+    background-color: bisque;
 }
-row1{
-    width: 25%;
+.green{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
 }
-row2{
-    width: 75%;
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 100%;
+}
+ .red img{
+    width: 100%;
 }
